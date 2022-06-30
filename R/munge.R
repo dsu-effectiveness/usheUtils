@@ -49,6 +49,8 @@ g_10 <- get_data_from_sql_file('g_10.sql', 'edify')
 
 g_08 <- get_data_from_sql_file('g_08.sql', 'edify')
 
+s_08 <- get_data_from_sql_file('s_08.sql', 'edify')
+
 student_file <- get_data_from_sql_file('student_file.sql', 'edify')
 
 
