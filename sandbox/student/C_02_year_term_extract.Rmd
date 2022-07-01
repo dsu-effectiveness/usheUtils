@@ -99,7 +99,7 @@ DT::datatable(change_year_term_extract)
 
 Now we write the function
 ```{r}
-ormat_ushe_year_term_extract <- function(input_df) {
+format_ushe_year_term_extract <- function(input_df) {
   
   output_df <- input_df %>%
     mutate(academic_year = str_sub(term_id, 1, 4)) %>% 
