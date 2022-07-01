@@ -44,6 +44,7 @@ sc_21_cumulative_institutional_undergraduate_gpa_test_df <- tibble(
   institutional_cumulative_gpa = sample(0.0:4.0, 10, replace = TRUE),
   level_id = sample(c("UG", "NC", "GR", "CE", "00", ""), 10, replace = TRUE)
 )
+
    
 DT::datatable(sc_21_cumulative_institutional_undergraduate_gpa_test_df, rownames=FALSE)
 ```
